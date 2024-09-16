@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    background-color: #010920;
+}
+
+/*apresentação*/
+
+.texto{
+   width: 550px;
+   height: 400px; 
+    
+}
+
+.apresentation h1{
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+
+.apresentation p{
+    color: aliceblue;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.texto{
+    padding: 20px;
+}
+
+span{
+    color:  #3fc1cafa;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 90px;
+    margin-bottom: 20px;
+}
+
+.foto_taisa{
+    width: 260px;
+    border-radius: 20px;
+    border: 5px solid #3fc1cafa;
+    
+}
+
+/*apresentation*/
+
+.apresentation-2{
+    border-top: 3px solid #3fc1cafa;
+    height: 1000px;
+}
+
+.apresentacao-2{
+    margin: 30px;
+    height: 1000px;
+    
+}   
+
+.apresentacao-2 h1{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.parte1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.parte2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 40px;
+}
+
+.foto p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.foto-hobbies1{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    border: 5px solid #3fc1cafa;
+}
+
+.foto-hobbies2{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid #3fc1cafa;
+}
+
+.foto-hobbies3{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    border: 5px solid #3fc1cafa;
+}
+    
+
+
+/*Habilidades*/
+
+.minhas-habilidades{
+    border-top: 3px solid #3fc1cafa;
+    height: 600px;
+    
+}
+
+.minhas-habilidades h1{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 20px;
+    
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+    padding: 0px;
+    margin-top: 60px;
+    
+}
+
+
+
+.habilidade{
+    width: 350px;
+    height: 400px;
+    justify-content: center;
+    text-align: justify;
+    padding: 10px;
+    border: 3px solid #3fc1cafa;
+    border-radius: 15px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    /*background-color: rgba(108, 109, 110, 0.39);*/
+    background-color: #8FC9BA;
+}
+
+.color{
+    color: #010920;
+}
+
+.habilidade ul{
+    margin-left: 20px;
+}
+
+.habilidade ul li{
+    padding: 10px;
+    color: #010920;
+    font-size: 18px;
+}
+
+.hard-skills{
+    display: flex;
+    
+    
+}
+
+.nome-hard{
+    width: 230px;
+}
+
+.foto-hard{
+    width: 80px; 
+}
+
+
+
+.img-hard{
+    width: 85px;
+    
+}
+
+/*Trajetória*/
+
+.trajetoria{
+    border-top: 3px solid #3fc1cafa;
+    background-image: url("./img/StockCake-Modern\ Office\ Interior_1726273042.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.80) opacity(0.90);
+    
+}
+
+.trajetoria h1{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    
+    
+}
+
+.trajetoria p{
+    color: aliceblue;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.traj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 90px;
+    margin-bottom: 20px;
+    
+}
+
+
+.traj .texto{
+    padding: 20px;
+    background-color: #010920c7;
+    border-radius: 8px;
+    width: 650px;
+    height: 500px;
+    
+}
+
+/*Mil devs*/
+
+.oportunidade{
+    background-image: url("./img/1000devs.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    display: block;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+}
+
+.mildevs{
+    width: 600px;
+    height: 900px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.agradecimento {
+    color: black;
+    font-weight: bold;
+}
+
