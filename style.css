@@ -251,26 +251,29 @@ span{
     background-image: url("./img/1000devs.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     height: 900px;
     display: block;
     align-items: center;
     text-align: right;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .mildevs{
-    width: 600px;
-    height: 900px;
+    width: 35vw;
+    height: 70vw;
     text-align: justify;
     position: absolute;
-    margin-left: 1100px;
-    margin-top: 50px;
-    font-size: 20px;
+    margin-left: 60%;
+    margin-top: 10vh;
+    font-size: 15px;
 }
 
 .agradecimento {
     color: black;
     font-weight: bold;
 }
+
+
 
