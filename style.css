@@ -54,7 +54,7 @@ span{
     
 }
 
-/*apresentation*/
+/*hobbies*/
 
 .apresentation-2{
     border-top: 3px solid #3fc1cafa;
@@ -99,22 +99,22 @@ span{
 }
 
 .foto-hobbies1{
-    width: 300px;
-    height: 450px;
+    width: 15vw;
+    height: 35vh;
     border-radius: 20px;
     border: 5px solid #3fc1cafa;
 }
 
 .foto-hobbies2{
-    width: 400px;
-    height: 300px;
+    width: 20vw;
+    height: 35vh;
     border-radius: 20px;
     border: 5px solid #3fc1cafa;
 }
 
 .foto-hobbies3{
-    width: 400px;
-    height: 450px;
+    width: 20vw;
+    height: 35vh;
     border-radius: 20px;
     border: 5px solid #3fc1cafa;
 }
@@ -206,7 +206,7 @@ span{
     background-image: url("./img/StockCake-Modern\ Office\ Interior_1726273042.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     filter: brightness(0.80) opacity(0.90);
     
 }
@@ -229,6 +229,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     padding: 50px;
     gap: 90px;
     margin-bottom: 20px;
@@ -240,8 +241,9 @@ span{
     padding: 20px;
     background-color: #010920c7;
     border-radius: 8px;
-    width: 650px;
-    height: 500px;
+    width: 65vw;
+    height: 60vh;
+    font-size: 15vw;
     
 }
 
@@ -250,9 +252,10 @@ span{
 .oportunidade{
     background-image: url("./img/1000devs.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-color: aliceblue;
     background-size: 100%;
-    height: 900px;
+    height: 1000px;
     display: block;
     align-items: center;
     text-align: right;
@@ -267,7 +270,7 @@ span{
     position: absolute;
     margin-left: 60%;
     margin-top: 10vh;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .agradecimento {
