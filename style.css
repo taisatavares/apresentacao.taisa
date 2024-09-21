@@ -99,22 +99,22 @@ span{
 }
 
 .foto-hobbies1{
-    width: 15vw;
-    height: 35vh;
+    width: 250px;
+    /*height: 35vh;*/
     border-radius: 20px;
     border: 5px solid #3fc1cafa;
 }
 
 .foto-hobbies2{
-    width: 20vw;
-    height: 35vh;
+    width: 350px;
+    height: 300px;
     border-radius: 20px;
     border: 5px solid #3fc1cafa;
 }
 
 .foto-hobbies3{
-    width: 20vw;
-    height: 35vh;
+    width: 320px;
+    height: 370px;
     border-radius: 20px;
     border: 5px solid #3fc1cafa;
 }
@@ -250,13 +250,13 @@ span{
 /*Mil devs*/
 
 .oportunidade{
-    background-image: url("./img/1000devs.jpeg");
+    /*background-image: url("./img/1000devs.jpeg");
     background-repeat: no-repeat;
     background-position: top;
-    background-color: aliceblue;
-    background-size: 100%;
+    /*background-color: aliceblue;
+    background-size: 70%;*/
     height: 1000px;
-    display: block;
+    display: flex;
     align-items: center;
     text-align: right;
     justify-content: center;
@@ -264,18 +264,52 @@ span{
 }
 
 .mildevs{
-    width: 35vw;
-    height: 70vw;
+    display: flex;
+    gap: 60px;
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #8FC9BA;
+    border-radius: 15px;
+    /*margin-left: 50px;*/
+    margin-bottom: 200px;
+}
+
+.foto-mil{
+    width: 550px; 
+    height: 500px;
+    /*margin-top: -250px;*/
+}
+
+.foto-devs{
+    /*margin-top: -150px;*/
+    width: 550px;
+}
+
+.text-mil{
+    width: 430px;
+    /*height: 70vw;*/
     text-align: justify;
-    position: absolute;
-    margin-left: 60%;
-    margin-top: 10vh;
+    
     font-size: 18px;
 }
 
 .agradecimento {
     color: black;
     font-weight: bold;
+}
+
+.rodape{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #8FC9BA ;
+    color: #010920;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 500px) {
@@ -332,12 +366,12 @@ span{
 
 .apresentation-2{
     border-top: 3px solid #3fc1cafa;
-    height: 2400px;
+    height: 2700px;
 }
 
 .apresentacao-2{
     margin: 30px;
-    height: 2400px;
+    height: 2700px;
     
 }   
 
@@ -476,7 +510,7 @@ span{
     background-color: #010920c7;
     border-radius: 8px;
     width: 100%;
-    height: 700px;
+    height: 600px;
     
     
 }
@@ -484,13 +518,13 @@ span{
 /*Mil devs*/
 
 .oportunidade{
-    background-image: url("./img/1000devs.jpeg");
+    /*background-image: url("./img/1000devs.jpeg");
     background-repeat: no-repeat;
     background-position: top;
-    background-color: aliceblue;
-    background-size: 100%;
+    /*background-color: aliceblue;
+    background-size: 70%;*/
     height: 1000px;
-    display: block;
+    display: flex;
     align-items: center;
     text-align: right;
     justify-content: center;
@@ -498,18 +532,52 @@ span{
 }
 
 .mildevs{
-    width: 80vw;
-    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 910px;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #8FC9BA;
+    border-radius: 15px;
+    
+    /*margin-left: 50px;*/
+    margin-bottom: 200px;
+}
+
+.foto-mil{
+    align-items: center;
+    width: 250px; 
+    height: 200px;
+    margin-top: 25px;
+    
+}
+
+.foto-devs{
+    /*margin-top: -150px;*/
+    width: 250px;
+}
+
+.text-mil{
+    width: 280px;
+    /*height: 70vw;*/
     text-align: justify;
     
-    margin-left: 10%;
-    margin-top: 25vh;
     font-size: 15px;
 }
+
+
 
 .agradecimento {
     color: black;
     font-weight: bold;
+}
+
+.rodape{
+    padding: 10px;
+    font-size: 16px;
 }
 
 }
